@@ -1,0 +1,159 @@
+/* THIS IS CODE PART FOR THE HEADER */
+
+body {
+    background-color: white;
+}
+
+#headercontainer {
+    background-color: black;
+    height: 80px;
+    margin: 1%;
+    display: flex;
+    justify-content:baseline;
+}
+
+#header_name_and_logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 120px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hifiwalker {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+}
+
+#header_menu{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    margin-left: auto;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#homelogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: invert(); 
+    width: 40px;
+}
+
+#products:active{
+    text-decoration: none;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#products:link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#aboutus:active{
+    text-decoration: none;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#aboutus:link{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#contactus:active{
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+#contactus:link{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+#cartlogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: invert(); 
+    width: 55px;
+}
+
+/* HEADER ENDING */ 
+
+
+/* FOOTER BEGINNING */ 
+
+#footercontainer {
+    background-color: black;
+    height: 300px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.columns{
+    width: 33%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.column1 {
+    color: white;
+    font-size: 20px;
+}
+
+#footeraddress {
+    color: white;
+    width: 33%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#contactfooter:active{
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+}
+
+#contactfooter:link{
+    text-decoration: none;
+    color: gold;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+}
+
+/* FOOTER ENDING */ 
