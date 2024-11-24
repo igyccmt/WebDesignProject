@@ -7,8 +7,8 @@ body {
 #headercontainer {
     background-color: black;
     height: 80px;
-    margin: 1%;
     display: flex;
+    margin-bottom: 1%;
     justify-content:baseline;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 #hifiwalker {
-    color: white;
+    color: gold;
     font-size: 25px;
     font-weight: 400;
     font-family: sans-serif;
@@ -115,12 +115,12 @@ body {
 
 #footercontainer {
     background-color: black;
-    height: 300px;
+    height: 150px;
     margin-left: 1%;
     margin-right: 1%;
     display: flex;
     margin-bottom: auto;
-    margin-top: auto;
+    margin-top: auto%;
 }
 
 .columns{
@@ -134,9 +134,17 @@ body {
     font-size: 20px;
 }
 
+.column2 {
+    color: white;
+    font-size: 20px;
+}
+
+#column3logo {
+    height: 150px;
+}
+
 #footeraddress {
     color: white;
-    width: 33%;
     margin-left: 1%;
     margin-right: 1%;
 }
@@ -154,6 +162,12 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 15px;
+}
+
+.followus{
+    color: gold; 
+    text-decoration: none; 
+    margin: 0 5px;
 }
 
 /* FOOTER ENDING */ 
