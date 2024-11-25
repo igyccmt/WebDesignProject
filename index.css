@@ -71,6 +71,14 @@ body {
     margin-bottom: auto;
 }
 
+#products{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 #aboutus:active{
     text-decoration: none;
     margin-top: auto;
@@ -85,9 +93,24 @@ body {
     font-size: 20px;
     margin-bottom: auto;
 }
+#aboutus{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
 
 #contactus:active{
+    color: white;
     text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+#contactus{
+    text-decoration: none;
+    color: white;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 20px;
