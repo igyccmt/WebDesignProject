@@ -107,6 +107,7 @@ body {
 }
 
 header {
+    text-align: center;
     font-family: sans-serif;
     background-color:white;
     color: black;
