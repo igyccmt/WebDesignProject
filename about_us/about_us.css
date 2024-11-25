@@ -105,6 +105,26 @@ body {
     filter: invert(); 
     width: 55px;
 }
+#body{
+    font-family: Arial;
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+    color:#000000;
+}
+#header{
+    background-color:#000000;
+    color: gold;
+    font-size: 20px;
+    text-align: center;
+}
+#main{
+    font-size: 20px;
+}
+#h1,h2{
+    color:#000000;
+
+}
 
 #footercontainer {
     background-color: black;
