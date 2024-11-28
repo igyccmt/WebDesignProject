@@ -62,12 +62,14 @@ body {
     margin-top: auto;
     font-size: 20px;
     margin-bottom: auto;
+    font-family: sans-serif;
 }
 
 #products:link{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    font-family: sans-serif;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -78,6 +80,7 @@ body {
     font-size: 20px;
     margin-top: auto;
     margin-bottom: auto;
+    font-family: sans-serif;
 }
 
 #aboutus:active{
@@ -85,6 +88,7 @@ body {
     color: white;
     margin-top: auto;
     font-size: 20px;
+    font-family: sans-serif;
     margin-bottom: auto;
 }
 
@@ -94,6 +98,7 @@ body {
     margin-top: auto;
     font-size: 20px;
     margin-bottom: auto;
+    font-family: sans-serif;
 }
 
 #aboutus:visited{
@@ -102,6 +107,7 @@ body {
     margin-top: auto;
     font-size: 20px;
     margin-bottom: auto;
+    font-family: sans-serif;
 }
 
 #contactus:active{
@@ -110,6 +116,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 #contactus:link{
@@ -118,12 +125,14 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 #contactus:visited{
     text-decoration: none;
     color: white;
     margin-top: auto;
+    font-family: sans-serif;
     margin-bottom: auto;
     font-size: 20px;
 }
@@ -160,6 +169,7 @@ body {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 0px;
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -169,11 +179,90 @@ body {
     font-weight: 600;
     margin-top: 0px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 #statement1_3 {
     color: black;
     font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#second_row{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#column_1_second_row {
+    border: 3px solid gold;
+    margin: auto;
+    height: 400px;
+    width: 38%;
+    display: block;
+}
+
+#womanlistening {
+    width: 100%;
+    margin-right: auto;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-bottom: 0px;
+    height: 325px;
+}
+
+#whereveryougo {
+    color: black;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#column_2_second_row {
+    border: 3px solid gold;
+    margin: auto;
+    height: 350px;
+    width: 33%;
+}
+
+#soundbars {
+    width: 100%;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#streamthemusic {
+    color: black;   
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#column_3_second_row {
+    border: 3px solid gold;
+    margin: auto;
+    height: 400px;
+    width: 24%;
+}
+
+#robot {
+    margin-top: auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: auto;
+    object-fit: contain;
+}
+
+#feelthemusic {
+    color: black;   
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -187,6 +276,7 @@ body {
     margin-left: 1%;
     margin-right: 1%;
     display: flex;
+    font-family: sans-serif;
     margin-bottom: auto;
     margin-top: auto%;
 }
@@ -215,6 +305,7 @@ body {
     color: white;
     margin-left: 1%;
     margin-right: 1%;
+    font-family: sans-serif;
 }
 
 #contactfooter:active{
@@ -222,6 +313,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 15px;
+    font-family: sans-serif;
 }
 
 #contactfooter:link{
@@ -230,10 +322,12 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     font-size: 15px;
+    font-family: sans-serif;
 }
 
 .followus{
     color: gold; 
+    font-family: sans-serif;
     text-decoration: none; 
     margin: 0 5px;
 }
