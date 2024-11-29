@@ -2,6 +2,7 @@
 
 body {
     background-color: white;
+    margin: 1%;
 }
 
 #headercontainer {
@@ -200,7 +201,7 @@ body {
     border: 3px solid gold;
     margin: auto;
     height: 400px;
-    width: 38%;
+    width: 36%;
     display: block;
 }
 
@@ -264,6 +265,43 @@ body {
     margin-top: 40px;
     font-size: 25px;
     text-align: center;
+}
+
+#statement2{
+    margin-top: 50px;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#h2pro {
+    display: flex;
+    max-height: 400px;
+}
+
+#photoh2pro img{
+    height: 400px;
+}
+
+#photoh2pro {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#text {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#text h1 {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+#space {
+    background-color: white;
+    min-width: 20%;
 }
 
 /* MAIN BODY END */ 
