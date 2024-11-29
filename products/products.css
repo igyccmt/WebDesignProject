@@ -1,181 +1,373 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Products | HiFi Walker</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
-</head>
-<body>
-    <h1>HiFi Walker Products</h1>
-    <div class="product-container">
-        <div class="product-card">
-            <div class="product-image">
-                <img src="https://hifiwalker.com/wp-content/uploads/2020/01/h2-product-image.jpg" alt="HiFi Walker H2">
-            </div>
-            <div class="product-details">
-                <h2>HiFi Walker H2 HiFi MP3 Player</h2>
-                <div class="price">
-                    <span class="old-price">$149.00</span>
-                    <span class="current-price">$99.68</span>
-                </div>
-                <table class="details-table">
-                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
-                    <tr><th>Model</th><td>H2</td></tr>
-                    <tr><th>Special Feature</th><td>Hi-Res Audio</td></tr>
-                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
-                    <tr><th>Memory Storage</th><td>64 GB</td></tr>
-                    <tr><th>Color</th><td>Black</td></tr>
-                    <tr><th>Screen Size</th><td>2 Inches</td></tr>
-                    <tr><th>Compatible Devices</th><td>Laptop, Headphone, Personal Computer</td></tr>
-                    <tr><th>Media Type</th><td>APE, WAV, FLAC, MP3, DSD</td></tr>
-                    <tr><th>Included Components</th><td>User Manual, Type-C Cable, 64GB SD Card</td></tr>
-                </table>
-            </div>
-        </div>
+/* THIS IS CODE PART FOR THE HEADER */
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="https://hifiwalker.com/wp-content/uploads/2020/01/g7-mini-product-image.jpg" alt="HiFi Walker G7 Mini">
-            </div>
-            <div class="product-details">
-                <h2>HiFi Walker G7 Mini 16GB MP3 Player</h2>
-                <div class="price">
-                    <span class="old-price">$49.99</span>
-                    <span class="current-price">$49.99</span>
-                </div>
-                <table class="details-table">
-                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
-                    <tr><th>Model</th><td>G7 Mini</td></tr>
-                    <tr><th>Special Feature</th><td>Compact Design</td></tr>
-                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
-                    <tr><th>Memory Storage</th><td>16 GB</td></tr>
-                    <tr><th>Color</th><td>Black</td></tr>
-                    <tr><th>Screen Size</th><td>1.8 Inches</td></tr>
-                    <tr><th>Compatible Devices</th><td>Laptop, Headphone</td></tr>
-                    <tr><th>Media Type</th><td>MP3, WAV, FLAC</td></tr>
-                    <tr><th>Included Components</th><td>User Manual, USB Cable</td></tr>
-                </table>
-            </div>
-        </div>
+body {
+    background-color: white;
+    margin: 1%;
+}
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="https://hifiwalker.com/wp-content/uploads/2020/01/h20-pro-product-image.jpg" alt="HiFi Walker H20 Pro">
-            </div>
-            <div class="product-details">
-                <h2>HiFi Walker H20 Pro MP3 Player</h2>
-                <div class="price">
-                    <span class="old-price">$199.99</span>
-                    <span class="current-price">$199.99</span>
-                </div>
-                <table class="details-table">
-                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
-                    <tr><th>Model</th><td>H20 Pro</td></tr>
-                    <tr><th>Special Feature</th><td>Professional Sound</td></tr>
-                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
-                    <tr><th>Memory Storage</th><td>128 GB</td></tr>
-                    <tr><th>Color</th><td>Silver</td></tr>
-                    <tr><th>Screen Size</th><td>2.4 Inches</td></tr>
-                    <tr><th>Compatible Devices</th><td>Laptop, Headphone, Personal Computer</td></tr>
-                    <tr><th>Media Type</th><td>APE, WAV, FLAC, MP3, DSD</td></tr>
-                    <tr><th>Included Components</th><td>User Manual, Type-C Cable, 128GB SD Card</td></tr>
-                </table>
-            </div>
-        </div>
+#headercontainer {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    margin-bottom: 1%;
+    justify-content:baseline;
+}
 
-        <div class="product-card">
-            <div class="product-image">
-                <img src="https://hifiwalker.com/wp-content/uploads/2020/01/h2-case-product-image.jpg" alt="HiFi Walker Case">
-            </div>
-            <div class="product-details">
-                <h2>Case for HiFi Walker H2, H2 Touch, G7, G7 Mini</h2>
-                <div class="price">
-                    <span class="old-price">$14.90</span>
-                    <span class="current-price">$9.90</span>
-                </div>
-                <table class="details-table">
-                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
-                    <tr><th>Model</th><td>H2, H2 Touch, G7, G7 Mini</td></tr>
-                    <tr><th>Special Feature</th><td>Protective Case</td></tr>
-                    <tr><th>Color</th><td>Black</td></tr>
-                    <tr><th>Material</th><td>PU Leather</td></tr>
-                    <tr><th>Included Components</th><td>Case Only</td></tr>
-                </table>
-            </div>
-        </div>
-    </div>
-    <script src="" async defer></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .product-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .product-card {
-            background: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            width: calc(50% - 20px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-        .product-image {
-            width: 100%;
-            height: 300px;
-            background: #f4f4f4;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .product-image img {
-            max-height: 100%;
-            max-width: 100%;
-        }
-        .product-details {
-            padding: 20px;
-        }
-        .price {
-            font-size: 18px;
-            margin: 10px 0;
-        }
-        .old-price {
-            text-decoration: line-through;
-            color: #999;
-            margin-right: 10px;
-        }
-        .current-price {
-            color: green;
-            font-weight: bold;
-        }
-        .details-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        .details-table th,
-        .details-table td {
-            text-align: left;
-            padding: 8px 10px;
-            border: 1px solid #ddd;
-        }
-        .details-table th {
-            background-color: #f7f7f7;
-            font-weight: bold;
-        }
-    </style>
-</body>
-</html>
+#header_name_and_logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 120px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hifiwalker {
+    color: gold;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+}
+
+#header_menu{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    margin-left: auto;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#homelogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: invert(); 
+    width: 45px;
+}
+
+#products:active{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+#products:link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#products:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+#aboutus:active{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: auto;
+}
+
+#aboutus:link{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+#aboutus:visited{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+#contactus:active{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#contactus:link{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#contactus:visited{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-family: sans-serif;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+#cartlogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: invert(); 
+    width: 55px;
+}
+
+/* HEADER ENDING */ 
+
+/* MAIN BODY START */
+
+#most_popular_prod_container {
+    display: flex;
+    border: 15px black inset;
+    padding: 4%;
+}
+
+#hifih22 {
+    height: 250px;
+    margin: auto;
+}
+
+#statement1 {
+    display: block;
+    margin: auto;
+}
+
+#statement1_1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#statement1_2 {
+    color: gold;
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#statement1_3 {
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#second_row{
+    background-color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#column_1_second_row {
+    border: 3px solid gold;
+    margin: auto;
+    height: 400px;
+    width: 36%;
+    display: block;
+}
+
+#womanlistening {
+    width: 100%;
+    margin-right: auto;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-bottom: 0px;
+    height: 325px;
+}
+
+#whereveryougo {
+    color: black;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#column_2_second_row {
+    border: 3px solid gold;
+    margin: auto;
+    height: 350px;
+    width: 33%;
+}
+
+#soundbars {
+    width: 100%;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#streamthemusic {
+    color: black;   
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#column_3_second_row {
+    border: 3px solid gold;
+    margin: auto;
+    height: 400px;
+    width: 24%;
+}
+
+#robot {
+    margin-top: auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: auto;
+    object-fit: contain;
+}
+
+#feelthemusic {
+    color: black;   
+    font-family: sans-serif;
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#statement2{
+    margin-top: 50px;
+    font-size: 100px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#h2pro {
+    display: flex;
+    max-height: 400px;
+}
+
+#photoh2pro img{
+    height: 400px;
+}
+
+#photoh2pro {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#text {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+#text h1 {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+#space {
+    background-color: white;
+    min-width: 20%;
+}
+
+/* MAIN BODY END */ 
+
+/* FOOTER BEGINNING */ 
+
+#footercontainer {
+    background-color: black;
+    height: 150px;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    font-family: sans-serif;
+    margin-bottom: auto;
+    margin-top: auto%;
+}
+
+.columns{
+    width: 33%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.column1 {
+    color: white;
+    font-size: 20px;
+}
+
+.column2 {
+    color: white;
+    font-size: 20px;
+}
+
+#column3logo {
+    height: 150px;
+}
+
+#footeraddress {
+    color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-family: sans-serif;
+}
+
+#contactfooter:active{
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#contactfooter:link{
+    text-decoration: none;
+    color: gold;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.followus{
+    color: gold; 
+    font-family: sans-serif;
+    text-decoration: none; 
+    margin: 0 5px;
+}
+
+/* FOOTER ENDING */ 
