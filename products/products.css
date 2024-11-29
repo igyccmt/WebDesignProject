@@ -371,3 +371,107 @@ body {
 }
 
 /* FOOTER ENDING */ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.product-container {
+    display: flex; /* Ürünleri yatay hizalar */
+    flex-wrap: wrap; /* Ürünler bir satıra sığmazsa alt satıra geçer */
+    justify-content: space-between; /* Ürünler arasına boşluk koyar */
+    gap: 20px; /* Ürünler arasındaki boşluk */
+    padding: 20px; /* Konteyner kenar boşlukları */
+}
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(50% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.product-image {
+    width: 100%;
+    height: 300px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-image img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.product-details {
+    padding: 20px;
+}
+.price {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+.current-price {
+    color: green;
+    font-weight: bold;
+}
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.details-table th,
+.details-table td {
+    text-align: left;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+}
+.details-table th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+ /* CSS Butonlar İçin */
+ .add-to-cart {
+    background-color: #FFD700; /* Yeşil Renk */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px; /* Hafif Yuvarlak Köşeler */
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #FFD700; /* Daha koyu bir yeşil */
+}
+
+.add-to-cart:active {
+    background-color: #FFC700; /* Tıklandığında biraz daha koyu */
+    transform: scale(0.98); /* Tıklanma efekti için hafif küçülme */
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
