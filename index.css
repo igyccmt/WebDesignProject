@@ -110,8 +110,22 @@ body {
     margin-bottom: auto;
     font-family: sans-serif;
 }
+#aboutus{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
 
 #contactus:active{
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+#contactus{
     text-decoration: none;
     color: white;
     margin-top: auto;
