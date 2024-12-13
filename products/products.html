@@ -1,14 +1,184 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Producst | Hifi Walker</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <script src="" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="products.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Products | HiFi Walker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- HEADER START -->
+    <div id="headercontainer">
+        <div id="header_name_and_logo">
+            <img src="images/hifiwalker.jpg" alt="logo" id="logo" class="logoname">
+            <h1 id="hifiwalker" class="logoname">HIFI WALKER</h1>
+        </div>
+        <div id="header_menu">
+            <a href="index.html" target="_self"><img src="images/home.jpg" id="homelogo" alt="home"></a>
+            <a href="products.html" id="products" target="_self">Products</a>
+            <a href="about_us.html" id="aboutus" target="_self">About us</a>
+            <a href="contact_us.html" id="contactus" target="_self">Contact us</a>
+            <a href="cart.html" target="_self"><img src="images/cart.jpg" id="cartlogo" alt="cart"></a>
+        </div>
+    </div>
+    <!-- HEADER END -->
+
+    <h1>HiFi Walker Products</h1>
+    <div class="product-container">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product1.jpg" alt="HiFi Walker H2">
+            </div>
+            <div class="product-details">
+                <h2>HiFi Walker H2 HiFi MP3 Player</h2>
+                <div class="price">
+                    <span class="current-price">$119.90</span>
+                </div>
+                <table class="details-table">
+                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
+                    <tr><th>Model</th><td>H2</td></tr>
+                    <tr><th>Special Feature</th><td>Hi-Res Audio</td></tr>
+                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
+                    <tr><th>Memory Storage</th><td>64 GB</td></tr>
+                </table>
+                <button class="add-to-cart" onclick="addToCart('HiFi Walker H2', 119.90)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product2.jpg" alt="HiFi Walker H2 Touch">
+            </div>
+            <div class="product-details">
+                <h2>HiFi Walker H2 Touch MP3 Player</h2>
+                <div class="price">
+                    <span class="current-price">$129.99</span>
+                </div>
+                <table class="details-table">
+                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
+                    <tr><th>Model</th><td>H2 Touch</td></tr>
+                    <tr><th>Special Feature</th><td>Touchscreen</td></tr>
+                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
+                    <tr><th>Memory Storage</th><td>32 GB</td></tr>
+                </table>
+                <button class="add-to-cart" onclick="addToCart('HiFi Walker H2 Touch', 129.99)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product3.jpg" alt="HiFi Walker H20 Pro">
+            </div>
+            <div class="product-details">
+                <h2>HiFi Walker H20 Pro MP3 Player</h2>
+                <div class="price">
+                    <span class="current-price">$199.99</span>
+                </div>
+                <table class="details-table">
+                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
+                    <tr><th>Model</th><td>H20 Pro</td></tr>
+                    <tr><th>Special Feature</th><td>Professional Sound</td></tr>
+                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
+                    <tr><th>Memory Storage</th><td>128 GB</td></tr>
+                </table>
+                <button class="add-to-cart" onclick="addToCart('HiFi Walker H20 Pro', 199.99)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product4.jpg" alt="HiFi Walker G7">
+            </div>
+            <div class="product-details">
+                <h2>HiFi Walker G7 Android MP3 Player</h2>
+                <div class="price">
+                    <span class="current-price">$86.99</span>
+                </div>
+                <table class="details-table">
+                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
+                    <tr><th>Model</th><td>G7</td></tr>
+                    <tr><th>Special Feature</th><td>Android OS</td></tr>
+                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
+                    <tr><th>Memory Storage</th><td>32 GB</td></tr>
+                </table>
+                <button class="add-to-cart" onclick="addToCart('HiFi Walker G7', 86.99)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product5.jpg" alt="HiFi Walker G7 Mini">
+            </div>
+            <div class="product-details">
+                <h2>HiFi Walker G7 Mini 16GB MP3 Player</h2>
+                <div class="price">
+                    <span class="current-price">$49.99</span>
+                </div>
+                <table class="details-table">
+                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
+                    <tr><th>Model</th><td>G7 Mini</td></tr>
+                    <tr><th>Special Feature</th><td>Compact Design</td></tr>
+                    <tr><th>Connectivity</th><td>Bluetooth</td></tr>
+                    <tr><th>Memory Storage</th><td>16 GB</td></tr>
+                </table>
+                <button class="add-to-cart" onclick="addToCart('HiFi Walker G7 Mini', 49.99)">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product6.jpg" alt="HiFi Walker Case">
+            </div>
+            <div class="product-details">
+                <h2>Case for HiFi Walker H2, H2 Touch, G7, G7 Mini</h2>
+                <div class="price">
+                    <span class="current-price">$9.90</span>
+                </div>
+                <table class="details-table">
+                    <tr><th>Brand</th><td>HiFi Walker</td></tr>
+                    <tr><th>Model</th><td>H2, H2 Touch, G7, G7 Mini</td></tr>
+                    <tr><th>Special Feature</th><td>Protective Case</td></tr>
+                    <tr><th>Material</th><td>PU Leather</td></tr>
+                </table>
+                <button class="add-to-cart" onclick="addToCart('HiFi Walker Case', 9.90)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+<!-- FOOTER START -->
+<footer>
+    <div style="background-color: #000000; color: white; padding: 20px; text-align: center;">
+        <div id="footercontainer">
+            <div class="columns">
+                <p class="column1">
+                    Hifi Walker is a portable HiFi/Android music player, designed for everyday usage. Ranging from touchscreen to keyed, Hifi Walker will accompany you on your journeys.
+                </p>
+
+                </div>
+            <div class="columns">
+                <p class= "column2" id="footeraddress">
+                    Location: Kadir Has Caddesi, We actually don't exist Street!
+                </p>
+                <p class="column2">
+                    Follow us:
+                    <a href="https://www.facebook.com/HIFIWALKER.Official/" target="_blank" class="followus">Facebook</a> |
+                    <a href="https://www.youtube.com/@HIFIWALKER" target="_blank" class="followus">Youtube</a> |
+                    <a href="/about_us/about_us.html" target="_blank" class="followus">About us</a> 
+                </p>
+            </div>
+            <div class="columns">
+                <img src="images/hifiwalker.jpg" alt="logo" id="column3logo">
+            </div>
+        </div>
+    </footer>
+<!-- FOOTER END -->
+<script src="products.js" async defer></script>
+</body>
 </html>

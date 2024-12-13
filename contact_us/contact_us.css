@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #393939;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FFD429;
+}
+
+.intro-text, .contact-intro {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #393939;
+    font-size: 18px;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    border: 1px solid #9C8731;
+    border-radius: 10px;
+}
+
+.contact-item {
+    margin-bottom: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #9C8731;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-item h2 {
+    color: #9C8731;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contact-item a {
+    color: #FFD429;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #9C8731;
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-row:first-child {
+    display: flex;
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #9C8731;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-btn {
+    background: #FFD429;
+    color: #000000;
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background: #9C8731;
+    color: #ffffff;
+}
+
+.success-message {
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 2px solid #9C8731;
+    border-radius: 5px;
+}
+
+.check-icon {
+    color: #9C8731;
+    font-size: 20px;
+}
+
+#headercontainer {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    margin-bottom: 1%;
+    justify-content:baseline;
+}
+
+#header_name_and_logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 120px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hifiwalker {
+    color: gold;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+}
+
+#header_menu{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3%;
+    margin-left: auto;
+    width: 400px;
+    justify-content: space-between;
+}
+
+#homelogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: invert(); 
+    width: 40px;
+}
+
+#products:active{
+    text-decoration: none;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#products:link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#products{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#aboutus:active{
+    text-decoration: none;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#aboutus:link{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#aboutus{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+#contactus:active{
+    color: white;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+#contactus{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+#contactus:link{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+#cartlogo {
+    margin-top: auto;
+    margin-bottom: auto;
+    filter: invert(); 
+    width: 55px;
+}

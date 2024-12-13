@@ -1,14 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact Us | Hifi Walker</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <script src="" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us | Hifi Walker</title>
+    <meta name="description" content="Contact Hifi Walker">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact_us.css">
+</head>
+<body>
+    <div id="headercontainer">
+        <div id="header_name_and_logo">
+            <img src="/WebDesignProject/images/hifiwalker.jpg" alt="logo" id="logo" class="logoname">
+            <h1 id="hifiwalker" class="logoname">HIFI WALKER</h1>
+        </div>
+        <div id="header_menu">
+            <a href="/WebDesignProject/index.html" target="_self"><img src="/WebDesignProject/images/home.jpg" id="homelogo" alt="home"></a>
+            <a href="/WebDesignProject/products/products.html" id="products" target="_self">Products</a>
+            <a href="/WebDesignProject/about_us/about_us.html" id="aboutus" target="_self">About us</a>
+            <a href="/WebDesignProject/contact_us/contact_us.html" id="contactus" target="_self">Contact us</a>
+            <a href="/WebDesignProject/cart/cart.html" target="_self"><img src="/WebDesignProject/images/cart.jpg" id="cartlogo" alt="cart"></a>
+        </div>
+    </div>
+    <div class="container">
+        <main>
+            <h1>CONTACT</h1>
+            
+            <p class="intro-text">
+                If you have any questions or concerns, feel free to reach out to us.
+            </p>
+            
+            <p class="contact-intro">
+                We value your feedback, so don’t hesitate to get in touch with us at:
+            </p>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h2>Email:</h2>
+                    <p><a href="mailto:danisma@khas.edu.tr">danisma@khas.edu.tr</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <h2>Physical address:</h2>
+                    <p>Cibali, Kadir Has Cd., 34083 Cibali<br>
+                    <p>Fatih/İstanbul</p>
+                </div>
+
+                <div class="contact-item">
+                    <h2>Service Tel:</h2>
+                    <p><a href="tel:(+90) 212 533 65 32">(+90) 212 533 65 32</a></p>
+                </div>
+            </div>
+
+            <h1>CONTACT FORM</h1>
+            
+            <div class="success-message" id="successMessage" style="display: none;">
+                <span class="check-icon">✓</span>
+                Thanks for contacting us. We'll get back to you as soon as possible.
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email *" required>
+                </div>
+                
+                <div class="form-row">
+                    <input type="tel" id="phone" name="phone" placeholder="Phone number">
+                </div>
+                
+                <div class="form-row">
+                    <textarea id="comment" name="comment" placeholder="Comment" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send</button>
+            </form>
+        </main>
+    </div>
+    <script src="contact_us.js"></script>
+</body>
 </html>
