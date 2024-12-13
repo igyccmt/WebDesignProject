@@ -106,6 +106,41 @@ body {
     width: 55px;
 }
 
+header {
+    text-align: center;
+    font-family: sans-serif;
+    background-color:white;
+    color: black;
+    font-size: 25px;
+    border-radius: 15px;
+    outline-style: auto;
+    outline-offset:5px;
+    
+}
+
+.content {
+    background:white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    outline-style: auto;
+    padding: 5px;
+   
+}
+#h1,h2,h3,h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    border-radius: 15px;
+    outline-style: auto;
+    padding: 10px;
+   
+}
+
+
+
+
+
 #footercontainer {
     background-color: black;
     height: 150px;
