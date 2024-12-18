@@ -51,28 +51,42 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     filter: invert(); 
-    width: 40px;
+    width: 45px;
 }
 
 #products:active{
     text-decoration: none;
+    color: white;
     margin-top: auto;
     font-size: 20px;
     margin-bottom: auto;
+    font-family: sans-serif;
 }
 
 #products:link{
     text-decoration: none;
     color: white;
     font-size: 20px;
+    font-family: sans-serif;
     margin-top: auto;
     margin-bottom: auto;
 }
 
+#products:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: sans-serif;
+}
+
 #aboutus:active{
     text-decoration: none;
+    color: white;
     margin-top: auto;
     font-size: 20px;
+    font-family: sans-serif;
     margin-bottom: auto;
 }
 
@@ -82,19 +96,41 @@ body {
     margin-top: auto;
     font-size: 20px;
     margin-bottom: auto;
+    font-family: sans-serif;
+}
+
+#aboutus:visited{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-size: 20px;
+    margin-bottom: auto;
+    font-family: sans-serif;
 }
 
 #contactus:active{
     text-decoration: none;
+    color: white;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 #contactus:link{
     text-decoration: none;
     color: white;
     margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#contactus:visited{
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    font-family: sans-serif;
     margin-bottom: auto;
     font-size: 20px;
 }
